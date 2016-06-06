@@ -1,0 +1,193 @@
+/* CSS Document */
+{
+	PADDING-RIGHT: 2em; DISPLAY: block; PADDING-LEFT: 2em; BACKGROUND: #eee; PADDING-BOTTOM: 2em; MARGIN: 40px 15px; PADDING-TOP: 2em; POSITION: relative; TEXT-ALIGN: center
+}
+#outer H2 {
+	MARGIN-BOTTOM: 1em
+}
+#navigation UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#navigation LI {
+	DISPLAY: block; FLOAT: left; MARGIN: 0px 1px
+}
+.snazzy {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.snazzy SPAN {
+	FONT-WEIGHT: normal; MARGIN: 0px; COLOR: #fff; TEXT-ALIGN: center
+}
+.b1 {
+	DISPLAY: block; FONT-SIZE: 1px; OVERFLOW: hidden
+}
+.b2 {
+	DISPLAY: block; FONT-SIZE: 1px; OVERFLOW: hidden
+}
+.b3 {
+	DISPLAY: block; FONT-SIZE: 1px; OVERFLOW: hidden
+}
+.b4 {
+	DISPLAY: block; FONT-SIZE: 1px; OVERFLOW: hidden
+}
+.b1 {
+	HEIGHT: 1px
+}
+.b2 {
+	HEIGHT: 1px
+}
+.b3 {
+	HEIGHT: 1px
+}
+.b2 {
+	BORDER-RIGHT: #fff 1px solid; BORDER-LEFT: #fff 1px solid
+}
+.b3 {
+	BORDER-RIGHT: #fff 1px solid; BORDER-LEFT: #fff 1px solid
+}
+.b4 {
+	BORDER-RIGHT: #fff 1px solid; BORDER-LEFT: #fff 1px solid
+}
+.b1 {
+	BACKGROUND: #fff; MARGIN: 0px 5px
+}
+.b2 {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 2px; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px 3px; BORDER-RIGHT-WIDTH: 2px
+}
+.b3 {
+	MARGIN: 0px 2px
+}
+.b4 {
+	MARGIN: 0px 1px; HEIGHT: 2px
+}
+.boxcontent {
+	BORDER-RIGHT: #fff 1px solid; DISPLAY: block; BORDER-LEFT: #fff 1px solid
+}
+A.menu {
+	DISPLAY: block; WIDTH: 5.5em; TEXT-DECORATION: none
+}
+A.menu:visited {
+	DISPLAY: block; WIDTH: 5.5em; TEXT-DECORATION: none
+}
+A.menu:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; CURSOR: pointer
+}
+A.menu:hover SPAN {
+	BACKGROUND: #888; PADDING-TOP: 5px
+}
+A:hover:unknown B {
+	BACKGROUND: #888
+}
+.red {
+	BACKGROUND:#079bf2
+}
+.orange {
+	BACKGROUND: #079bf2
+}
+.yellow {
+	font-size: 14px;
+	color: #006699;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.green {
+	font-weight: bold;
+	color: #004c99;
+	border-bottom: 1px solid #999999;
+	padding-bottom: 2px;
+}
+.blue {
+	BACKGROUND: #00c
+}
+.indigo {
+	BACKGROUND: #309
+}
+.violet {
+	BACKGROUND: #c6c
+}
+.grey {
+	BACKGROUND: #F95C35;
+	color: #FFFFFF;
+	padding: 1px 2px 3px;
+}
+A:hover B.red {
+	BACKGROUND: #888
+}
+A:hover B.orange {
+	BACKGROUND: #888
+}
+A:hover B.yellow {
+	BACKGROUND: #888
+}
+A:hover B.green {
+	BACKGROUND: #888
+}
+A:hover B.blue {
+	BACKGROUND: #888
+}
+A:hover B.indigo {
+	BACKGROUND: #888
+}
+A:hover B.violet {
+	BACKGROUND: #888
+}
+.active {
+	/*BACKGROUND: #888;*/
+	CURSOR: default;
+	/*PADDING-TOP: 10px;*/
+}
+#navigation2 {
+	CLEAR: both;
+	BACKGROUND: none transparent scroll repeat 0% 0%;
+	OVERFLOW: hidden;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 25px;
+}
+#navigation2 UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#navigation2 LI {
+	DISPLAY: block;
+	FLOAT: right;
+	margin-top: 0px;
+	margin-right: 1px;
+	margin-bottom: 0px;
+	margin-left: 1px;
+}
+.pad {
+	DISPLAY: block; OVERFLOW: hidden; HEIGHT: 1em
+}
+A.menu2 {
+	DISPLAY: block; WIDTH: 8.5em; TEXT-DECORATION: none
+}
+A.menu2:visited {
+	DISPLAY: block; WIDTH: 8.5em; TEXT-DECORATION: none
+}
+A.menu2:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; CURSOR: pointer
+}
+A.menu2:hover .boxcontent {
+	BACKGROUND: #888; PADDING-BOTTOM:1em
+}
+A.menu2:hover .pad {
+	HEIGHT: 0em
+}
+/*============重寫hr網頁內的右上角頁簽=================*/
+#navigation3 {
+	position:relative;
+	BACKGROUND: none transparent scroll repeat 0% 0%;
+	OVERFLOW: hidden;
+	margin-top: 0px;
+	top:3px;
+	width:710px;
+	*top:16px;
+}
+#navigation3 UL {
+	BACKGROUND: none transparent scroll repeat 0% 0%; 
+	LIST-STYLE-TYPE: none;
+	
+}
+#navigation3 LI {
+	DISPLAY: block;
+	FLOAT: right;
+}

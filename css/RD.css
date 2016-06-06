@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+body  {
+	margin: 0;
+	padding: 0;
+	background-image: url(../UnimicronRD/images/menu/bg.jpg);
+	background-repeat: repeat-x;
+	background-color: #F0F3FA;
+	background-position: top;
+	font-family: "Trebuchet MS", "細明體", "新細明體";
+	font-size: 94%;
+	text-decoration: none;
+}
+.twoColFixLtHdr a{
+	text-decoration: none;
+
+} 
+.twoColFixLtHdr #container {
+	width: 955px;
+	text-align: left;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+} 
+/*--首頁左邊產品--*/
+.twoColFixLtHdr #word01 {
+	padding: 0;
+	text-decoration:none;
+	margin-top: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+.twoColFixLtHdr #word01 a:hover{
+	color:042b57;
+	text-decoration: none;
+
+}
+.twoColFixLtHdr #word01 a{
+	color:#18467a;
+
+}
+.twoColFixLtHdr #arealink {
+	margin-top: 8px;
+	width: 222px;
+	margin-bottom: 5px;
+}
+/*--表頭--*/
+
+.twoColFixLtHdr #txt_tit {
+	font-size: 16px;
+	font-weight: bold;
+	color:#569ad8;
+	background-image: url(../images/menu/insidea_11.gif);
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	height: 40px;
+/*--padding-top: 8px; --*/
+	padding-left: 20px;
+	float: none;
+	width: 677px;
+}
+.twoColFixLtHdr #txt_content {
+	margin-right: auto;
+	margin-left: auto;
+	width: 677px;
+	padding-top: 10px;
+
+}
+.twoColFixLtHdr #ebackery{
+	font-size: 13px;
+	color: #006699;
+	height: 19px;
+	margin-right: 10px;
+	margin-left: 0px;
+	text-align: right;
+	float: right;
+	clear: all;
+}
+.twoColFixLtHdr #mantitle {
+	color: #1679c0;
+	background-image: url(../images/s_title3.gif);
+	background-repeat: no-repeat;
+	height: 30px;
+	padding-left: 30px;
+}
+.twoColFixLtHdr #about11bg
+{
+	background-image: url(../images/c-p03bg.gif);
+}
+/*--新聞--*/
+.twoColFixLtHdr #news ul{
+	line-height: 25px;
+	color: #666666;
+	margin-left: 25px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.twoColFixLtHdr #news {
+	color: #666666;
+	width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 1.5em;
+}
+
+.twoColFixLtHdr #news li{
+	list-style: url(../images/point03.gif) outside;
+	margin-left: 25px;
+	color: #666666;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 5px;
+	border-bottom: 1px dotted #999999;
+}
+.twoColFixLtHdr #news a:visited {
+	text-decoration: none;
+	color: #006699;
+}
+.twoColFixLtHdr #news a:hover {
+	color: #0098E1;
+	text-decoration: none;
+}
+.twoColFixLtHdr #newstitle {
+	font-size: 15px;
+	color: #006699;
+	font-weight: bold;
+	padding-bottom: 3px;
+	font-family: "Trebuchet MS", "細明體", "新細明體";
+}
+/*--關於欣興--*/
+.twoColFixLtHdr #aboutw li{
+	margin-left: 25px;
+	color: #333333;
+	margin-right: 25px;
+	margin-top: 0px;
+	list-style-position: outside;
+	list-style-image: url(../images/pint01.gif);
+
+}
+.twoColFixLtHdr #aboutw ul{
+	color: #666666;
+}
+.twoColFixLtHdr #aboutw {
+	color: #666666;
+	width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 1.5em;
+}
+.twoColFixLtHdr #about {
+	color: #666666;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 1.5em;
+}
+/*--選單--*/
+.twoColFixLtHdr #menu a {
+	display:block;
+	width:131px;
+	font-size: 15px;
+	color:#666666;
+	text-decoration: none;
+	height: 26px;
+	background-image: url(../images/menu/insidea_13.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 8px;
+	padding-right: 0;
+	padding-bottom: 3px;
+	padding-left: 45px;
+}
+.twoColFixLtHdr #menu a:hover {
+	color: #2c6a9c;
+	background-image: url(../images/menu/insidea_08.gif);
+}
+.twoColFixLtHdr #menu a:active {
+		color:#0372f5;
+}
+.twoColFixLtHdr #menu {
+	margin: 0px;
+}
+.twoColFixLtHdr #txt_picname {
+	font-size: 13px;
+	font-weight: normal;
+	color:#569ad8;
+}
+.twoColFixLtHdr #aboutw .txtlititle {
+	color: #666666;
+	background-color: #eeeeee;
+	padding-left: 25px;
+	background-image: url(../images/point08.gif);
+	background-repeat: no-repeat;
+	background-position: 5px;
+}
+
+/*產品*/
+.product_tit {
+	font-size: 15px;
+	font-weight: bold;
+	color: #257821;
+	background: url(../images/produt02.gif);
+	height: 25px;
+	width: 450px;
+	padding-left: 25px;
+}
+
+
+
+.productpage li {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	list-style: url(../images/point04.gif) outside;
+	margin-left: -10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #333333;
+	font-size: 15px;
+	line-height: 22px;
+}#product {
+	color: #666666;
+}
+
+#product a:visited {
+	text-decoration: none;
+	color: #006699;
+}
+#product a:hover {
+	color: #0098E1;
+	text-decoration: none;
+}
+#product li {
+	list-style: url(../images/point03.gif);
+	font-size: 15px;
+	line-height: 22px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.twoColFixLtHdr #product #qmtitle {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #c3c6c8;
+	margin-right: 20px;
+}
+.twoColFixLtHdr #producttitle {
+	font-size: 15px;
+	color: #006699;
+	font-weight: bold;
+	background-image: url(../images/point07.gif);
+	height: 30px;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+/*--表尾--*/
+#footer {
+	height: 80px;
+	font: 13px "Trebuchet MS", 細明體, 新細明體;
+	color: #707070;
+	padding-right: 15px;
+	padding-left: 20px;
+	background-image: url(../images/index_92.jpg);
+	background-repeat: no-repeat;
+	background-position: 310px;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: 10px;
+} 
+
+#footer .fltlft {
+	clear:both;
+	float: left;
+	margin-right: 30px;
+	margin-left: 90px;
+	margin-top: 15px;
+}
+.twoColFixLtHdr #news p.st {
+	font-weight: bold;
+	color: #336699;
+}
+.twoColFixLtHdr #adplayword {
+	font-size: 13px;
+}
+.twoColFixLtHdr #lines {
+	background-image: url(../images/line_1.gif);
+	background-repeat: repeat-x;
+	height: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.twoColFixLtHdr #imgaround {
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-left: 6px;
+	float: right;
+}
