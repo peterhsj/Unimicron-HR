@@ -965,12 +965,15 @@ span.ask{
 }
 .td_padding{
 	border:1px solid #DDD;
-	border-radius:5px;
-	padding:5px;
-	margin:5px;
+	border-radius:10px;
+	padding:4px;
+	margin:4px;
+	text-align:center;
 }
 .td_padding img{
 	width:100%;
+	/**width: 280px;*/
+	border-radius:7px;
 }
 .pic_div{
 	width:100%;
