@@ -940,7 +940,7 @@ span.ask{
 /*HR 政策*/
 .hr_policy{
 	overflow:hidden;
-	background-color:#739738;
+	background:url(../images/hr_policy.jpg) left top;
 	padding:10px 40px;
 	border-radius:10px;
 }
@@ -949,7 +949,7 @@ span.ask{
 	float:left;
 	width:380px;
 	line-height:2;
-	color:#FFF;
+	color:#437D0E;
 	padding-top:10px;
 }
 .hr_policy img{
@@ -984,4 +984,129 @@ span.ask{
 }
 .pic_div img{
 	width:100%;
+}
+
+/*學習管道*/
+
+.t2_1_1_btn{
+	display:block;
+	width:217px;
+	height:135px;
+  background: url(../images/t2_01_btn.jpg) left top;
+	text-indent:-9999px;
+	margin:auto;
+}
+.t2_1_1_btn:hover{
+  background: url(../images/t2_01_btn.jpg) left bottom;
+}
+#pop01{
+	background: url(../images/pop_01.jpg);
+	padding:10px 20px 10px 40px;
+	font-size:15px;
+	vertical-align:top;
+	color:#1859BD;
+	width:211px;
+	height:288px;
+}
+.t2_1_2_btn{
+	display:block;
+	width:157px;
+	height:171px;
+  background: url(../images/t2_02_btn.jpg) left top;
+	text-indent:-9999px;
+}
+.t2_1_2_btn:hover{
+  background: url(../images/t2_02_btn.jpg) left bottom;
+}
+#pop02{
+	background: url(../images/pop_02.jpg);
+	padding:10px 20px 10px 40px;
+	font-size:15px;
+	vertical-align:top;
+	color: #F06614;
+	width:211px;
+	height:288px;
+
+}
+.t2_1_3_btn{
+	display:block;
+	width:161px;
+	height:171px;
+  background: url(../images/t2_03_btn.jpg) left top;
+	text-indent:-9999px;
+}
+.t2_1_3_btn:hover{
+  background: url(../images/t2_03_btn.jpg) left bottom;
+}
+#pop03{
+	background: url(../images/pop_03.jpg);
+	padding:10px 20px 10px 40px;
+	font-size:15px;
+	vertical-align:top;
+	color: #509718;
+	width:211px;
+	height:288px;
+}
+
+/*新人培訓課程*/
+
+.ani_tb{
+	border-collapse:collapse;
+}
+.ani_tb td{
+	padding:0px;
+}
+.t3_1_1_btn{
+	display:block;
+	width:222px;
+	height:128px;
+  background: url(../images/t3_01_01_btn.jpg) left top;
+	text-indent:-9999px;
+}
+.t3_1_1_btn:hover{
+  background: url(../images/t3_01_01_btn.jpg) left bottom;
+}
+.t3_1_1_bg{
+	background: url(../images/t3_01_01r.jpg);
+	padding:10px !important;
+	font-size:15px;
+	vertical-align:top;
+	color:#1859BD;
+	width:375px;
+}
+.t3_1_2_btn{
+	display:block;
+	width:222px;
+	height:128px;
+  background: url(../images/t3_01_02_btn.jpg) left top;
+	text-indent:-9999px;
+}
+.t3_1_2_btn:hover{
+  background: url(../images/t3_01_02_btn.jpg) left bottom;
+}
+.t3_1_2_bg{
+	background: url(../images/t3_01_02r.jpg);
+	padding:10px !important;
+	font-size:15px;
+	vertical-align:top;
+	color: #509718;
+	width:375px;
+}
+.t3_1_3_btn{
+	display:block;
+	width:222px;
+	height:103px;
+  background: url(../images/t3_01_03_btn.jpg) left top;
+	text-indent:-9999px;
+}
+.t3_1_3_btn:hover{
+  background: url(../images/t3_01_03_btn.jpg) left bottom;
+}
+.t3_1_3_bg{
+	background: url(../images/t3_01_03r.jpg);
+	padding:10px !important;
+	font-size:15px;
+	vertical-align:top;
+	color: #F06614;
+	width:375px;
 }
