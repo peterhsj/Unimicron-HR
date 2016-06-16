@@ -985,6 +985,126 @@ span.ask{
 .pic_div img{
 	width:100%;
 }
+/*應徵流程*/
+.hr1_1_btn{
+	display:block;
+	width:190px;
+	height:150px;
+  background: url(../images/hr_01_01_a_btn.jpg) left top;
+	text-indent:-9999px;
+	margin:auto;
+}
+.hr1_1_btn:hover{
+  background: url(../images/hr_01_01_a_btn.jpg) left bottom;
+}
+#hr_t01{
+	width:175px;
+	font-size:13px;
+	padding-right:15px;
+}
+.hr1_2_btn{
+	display:block;
+	width:190px;
+	height:150px;
+  background: url(../images/hr_01_01_b_btn.jpg) left top;
+	text-indent:-9999px;
+	margin:auto;
+}
+.hr1_2_btn:hover{
+  background: url(../images/hr_01_01_b_btn.jpg) left bottom;
+}
+#hr_t02{
+	width:175px;
+	font-size:13px;
+	padding-right:15px;
+}
+.hr1_3_btn{
+	display:block;
+	width:190px;
+	height:150px;
+  background: url(../images/hr_01_01_c_btn.jpg) left top;
+	text-indent:-9999px;
+	margin:auto;
+}
+.hr1_3_btn:hover{
+  background: url(../images/hr_01_01_c_btn.jpg) left bottom;
+}
+#hr_t03{
+	width:175px;
+	font-size:13px;
+	padding-right:15px;
+}
+
+.hr1_4_btn{
+	display:block;
+	width:142px;
+	height:110px;
+  background: url(../images/hr_01_02_a_btn.jpg) left top;
+	text-indent:-9999px;
+	margin:auto;
+}
+.hr1_4_btn:hover{
+  background: url(../images/hr_01_02_a_btn.jpg) left bottom;
+}
+#hr_t04{
+	width:127px;
+	font-size:13px;
+	padding-right:15px;
+}
+.hr1_5_btn{
+	display:block;
+	width:142px;
+	height:110px;
+  background: url(../images/hr_01_02_b_btn.jpg) left top;
+	text-indent:-9999px;
+	margin:auto;
+}
+.hr1_5_btn:hover{
+  background: url(../images/hr_01_02_b_btn.jpg) left bottom;
+}
+#hr_t05{
+	width:127px;
+	font-size:13px;
+	padding-right:15px;
+	text-align:left;
+}
+.hr1_6_btn{
+	display:block;
+	width:142px;
+	height:110px;
+  background: url(../images/hr_01_02_c_btn.jpg) left top;
+	text-indent:-9999px;
+	margin:auto;
+}
+.hr1_6_btn:hover{
+  background: url(../images/hr_01_02_c_btn.jpg) left bottom;
+}
+#hr_t06{
+	width:127px;
+	font-size:13px;
+	padding-right:15px;
+}
+.hr1_7_btn{
+	display:block;
+	width:142px;
+	height:110px;
+  background: url(../images/hr_01_02_d_btn.jpg) left top;
+	text-indent:-9999px;
+	margin:auto;
+}
+.hr1_7_btn:hover{
+  background: url(../images/hr_01_02_d_btn.jpg) left bottom;
+}
+#hr_t07{
+	width:127px;
+	font-size:13px;
+	padding-right:15px;
+}
+
+
+
+
+
 
 /*學習管道*/
 
@@ -1052,6 +1172,7 @@ span.ask{
 
 .ani_tb{
 	border-collapse:collapse;
+	margin:0 auto;
 }
 .ani_tb td{
 	padding:0px;
