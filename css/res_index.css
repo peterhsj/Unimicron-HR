@@ -98,7 +98,7 @@
 	float:left;
 	display:block;
 	width:210px;/*175*/
-	height:250px;
+	/*height:250px;*/
 	padding:0px;
 	margin-right:15px;
 	font-size:12px;
@@ -123,6 +123,30 @@
 	border-bottom:1px solid #cccccc;
 }
 #containitem ul li a:hover{
+	color:#ff5a00;
+}
+#containitem ul ol{
+	overflow:hidden;
+	padding:0px;
+}
+#containitem ul ol li{
+	width: auto;
+	margin:0px;
+	float:left;
+}
+#containitem ul ol li a{
+	display:block;
+	width:100px;
+	color:#5f6971;
+	font-size:13px;
+	line-height:20px;
+	font-weight:normal;
+	padding-bottom:0px;
+	margin:0px;
+	margin-bottom:0px;
+	border-bottom-width:0px;
+}
+#containitem ul ol li a:hover{
 	color:#ff5a00;
 }
 
