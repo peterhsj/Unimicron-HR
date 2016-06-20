@@ -431,7 +431,7 @@ figcaption{
 	padding:0px;
 }
 .o_01 ol li{
-	font-size:14px;
+	font-size:15px;
 	line-height:1.5;
 	margin:5px 0;
 	margin-left:25px;
@@ -442,7 +442,7 @@ figcaption{
 	padding:0px;
 }
 .p_02 ol li{
-	font-size:14px;
+	font-size:15px;
 	line-height:1.5;
 	margin:0;
 	margin-left:25px;
@@ -489,7 +489,7 @@ figcaption{
 #containitem ul li a{
 	display:block;
 	color:#0d49a3;
-	font-size:14px;
+	font-size:15px;
 	font-weight:bold;
 	padding-bottom:5px;
 	margin-bottom:5px;
@@ -540,7 +540,7 @@ figcaption{
 	margin: 0px 5px 5px 0px;
 }
 #containitem2 ul li a{
-	font-size:14px;
+	font-size:15px;
 	color:#0000f0;
 	padding-bottom:5px;
 	margin-bottom:5px;
@@ -672,7 +672,7 @@ figcaption{
     margin-bottom: 5px;
 }
 .progress-bar {
-    font-size: 14px;
+    font-size: 15px;
 }
 .progress-bar a{
 	color:#FFFFFF;
@@ -680,7 +680,7 @@ figcaption{
 	line-height:31px;
 }
 .bar_orange{
-	font-size:14px;
+	font-size:15px;
 	background-color:#EB8300;
 	padding:3px 7px;
 }
@@ -700,7 +700,7 @@ figcaption{
 	background:url(../images/progress-bar-info-bg.jpg) no-repeat;
 }
 .table_font{
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .text-right{
