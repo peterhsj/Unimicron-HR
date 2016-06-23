@@ -227,8 +227,12 @@ _gaq.push(['_trackPageview']);
                         </tbody>
                       </table>
 
-                  <h1 class="t04" id="job_01"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> 健康促進活動</h1>
+                  <h1 class="t04" id="job_02"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> 健康促進活動</h1>
                   <p>每月健康促進活動計畫</p>
+                  <div id="qa">
+                  <div id="accordion">
+                    <h3><span class="icon-price-tags"></span> 1 月 ~ 3 月</h3>
+                    <div>
                   <table class="table table_font">
                     <thead>
                       <tr class="text-warning">
@@ -345,6 +349,22 @@ _gaq.push(['_trackPageview']);
                         <td>心血管十周年風險篩檢個人諮詢</td>
                         <td>3月 ~ 5月</td>
                       </tr>
+                    </tbody>
+                  </table>
+                    </div>
+                    <h3><span class="icon-price-tags"></span> 4 月 ~ 6 月</h3>
+                    <div>
+                  <table class="table table_font">
+                    <thead>
+                      <tr class="text-warning">
+                        <th>型態</th>
+                        <th>季度</th>
+                        <th>廠區</th>
+                        <th>活動名稱</th>
+                        <th>預計辦理日期</th>
+                      </tr>
+                    </thead>  
+                    <tbody>
                       <tr>
                         <td><span class="act">活動</span></td>
                         <td>第二季</td>
@@ -429,6 +449,22 @@ _gaq.push(['_trackPageview']);
                         <td>血壓及血糖篩檢</td>
                         <td>6月</td>
                       </tr>
+                    </tbody>
+                  </table>
+                    </div>
+                    <h3><span class="icon-price-tags"></span> 7 月 ~ 9 月</h3>
+                    <div>
+                  <table class="table table_font">
+                    <thead>
+                      <tr class="text-warning">
+                        <th>型態</th>
+                        <th>季度</th>
+                        <th>廠區</th>
+                        <th>活動名稱</th>
+                        <th>預計辦理日期</th>
+                      </tr>
+                    </thead>  
+                    <tbody>
                       <tr>
                         <td><span class="act">活動</span></td>
                         <td>第三季</td>
@@ -478,6 +514,22 @@ _gaq.push(['_trackPageview']);
                         <td>預防心血管疾病</td>
                         <td>10月</td>
                       </tr>
+                    </tbody>
+                  </table>
+                    </div>
+                    <h3><span class="icon-price-tags"></span> 10 月 ~ 12 月</h3>
+                    <div>
+                  <table class="table table_font">
+                    <thead>
+                      <tr class="text-warning">
+                        <th>型態</th>
+                        <th>季度</th>
+                        <th>廠區</th>
+                        <th>活動名稱</th>
+                        <th>預計辦理日期</th>
+                      </tr>
+                    </thead>  
+                    <tbody>
                       <tr class="bg-warning">
                         <td><span class="talk">講座</span></td>
                         <td>第四季</td>
@@ -515,9 +567,13 @@ _gaq.push(['_trackPageview']);
                       </tr>
                     </tbody>
                   </table>
+                    </div>
+                  </div>
+                  </div>                  
+
 
                   
-                  <h1 class="t04" id="job_01"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> 母性健康關懷</h1>
+                  <h1 class="t04" id="job_03"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> 母性健康關懷</h1>
                   <p>孕期關懷照護/產後關懷/哺乳室設立/孕婦專屬停車區</p>
                       <table class="pic_tb">
                         <tbody>
@@ -540,12 +596,13 @@ _gaq.push(['_trackPageview']);
               <td><img src="images/menu/insidea_23.gif" alt="pic" width="713" height="12" style="vertical-align:top;"></td>
             </tr>
           </table>
-          <script type="text/javascript">
-					<!--
-					function MM_openBrWindow(theURL,winName,features) { //v2.0
-						window.open(theURL,winName,features);
-					}
-					//-->
+          <script>
+					$(function() {
+						$( "#accordion" ).accordion({
+							heightStyle: "content",
+							active: 1 	
+						});
+					});
 					</script>
         <!-- InstanceEndEditable -->
         </td>
