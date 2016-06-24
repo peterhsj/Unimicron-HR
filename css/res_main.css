@@ -719,7 +719,7 @@ figcaption{
 	color:#EEA033;
 }
 .text-success{
-	color:#55B055;
+	color:#339999;/*#55B055*/
 }
 .text-nowrap{
 	white-space:nowrap;
@@ -1230,4 +1230,15 @@ span.ask{
 	vertical-align:top;
 	color: #F06614;
 	width:375px;
+}
+.icon-questiona{
+	background: url(../images/qa_2.gif);
+	display:inline-block;
+	width:15px;
+	height:15px;	
+}.ui-accordion-header-active .icon-questiona{
+	background: url(../images/qa_1.gif);
+	display:inline-block;
+	width:15px;
+	height:15px;	
 }
