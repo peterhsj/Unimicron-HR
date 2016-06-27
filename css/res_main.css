@@ -759,12 +759,24 @@ figcaption{
 }
 .media-left{
 	float:left;
-	margin-right:15px;
+	display:block;
+	width:90px;
+	height:100px;
+	margin-right:10px;
 	padding-top:5px;
+	text-align:center;
 }
 .media-left img{
 	border:2px solid #DDD;
 }
+.media-left a{
+	color:#EEA033;
+	line-height:2;
+}
+.media-left a:hover{
+	color:#7f2d00;
+}
+
 .media-body{
 	float:left;
 	margin:0;
